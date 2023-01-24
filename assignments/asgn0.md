@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Assignment 0
-parent: Projects
+parent: Assignments
 nav_order: 1
 ---
  

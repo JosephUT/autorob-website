@@ -1,12 +1,16 @@
 ---
 layout: page
 title: Calendar
-description: Schedule of topics covered in Deep Learning for Robot Perception at the University of Michigan.
-nav_order: 3
+description: Weekly calendar.
+nav_order: 4
 ---
 
-# Calendar
+# Weekly Calendar
 
-{% for module in site.modules %}
-{{ module }}
+---
+
+{: #weekly-schedule }
+
+{% for schedule in site.schedules %}
+{{ schedule }}
 {% endfor %}
