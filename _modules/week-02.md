@@ -1,23 +1,27 @@
 ---
-title: Basic Data Structures
+title: Week 2
 ---
 
-Oct 5
-: [Linked Lists & Encapsulation](#)
-  : [3.1](#), [2.2](#), [2.3](#)
+Jan 10
+: [**Lec 2**](/assets/slides/deeprob_02_image_classification.pdf){: #lec-2 target="_blank" .label .label-purple }[Image Classification](/assets/slides/deeprob_02_image_classification.pdf){:target="_blank"}
+  : [![](/assets/logos/yt_icon_rgb.png){: .module-logo } **Recording**](https://youtu.be/D3tRGiqL7dc){:target="_blank"}
+: &nbsp;
+  : [📖 231n Image Classification](https://cs231n.github.io/classification/){:target="_blank"}
 
-Oct 6
-: **Section**{: .label .label-purple }[Linked Lists](#)
-  : [Solution](#)
 
-Oct 7
-: [Resizing Arrays](#)
-  : [2.4](#), [2.5](#)
 
-Oct 8
-: **Lab**{: .label .label-purple } [Resizing Arrays](#)
+Jan 12
+: [**Lec 3**](/assets/slides/deeprob_03_linear_classifiers.pdf){: #lec-3 target="_blank" .label .label-purple }[Linear Classifiers](/assets/slides/deeprob_03_linear_classifiers.pdf){:target="_blank"}
+  : [![](/assets/logos/yt_icon_rgb.png){: .module-logo } **Recording**](https://youtu.be/YNLMQ2nmGB4){:target="_blank"}
+: [**Project 0 due**{: .label .label-red }](/projects/project0/){: .project-link} [**Project 1 out**{: .label .label-yellow }](/projects/project1/){: .project-link}
+  : [📖 231n Linear Classification](https://cs231n.github.io/linear-classify/){:target="_blank"}
 
-Oct 9
-: [Runtime Analysis](#)
-  : [8.1](#), [8.2](#), [8.3](#), [8.4](#)
-: **HW 2 due**{: .label .label-red }
+
+
+Jan 13
+: [**Dis 2**](/assets/slides/deeprob_discussion_02.pdf){: #dis-2 target="_blank" .label .label-blue }[Intro to PROPS Dataset](/assets/slides/deeprob_discussion_02.pdf){:target="_blank"}
+  : [![](/assets/logos/yt_icon_rgb.png){: .module-logo } **Recording**](https://youtu.be/xvQTDdCRjiU){:target="_blank"}
+: &nbsp;
+  : [📖 Chen et al., ProgressLabeller](https://arxiv.org/abs/2203.00283){:target="_blank"}
+
+

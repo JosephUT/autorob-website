@@ -1,23 +1,17 @@
 ---
-title: Introduction to Java
+title: Week 1
 ---
 
-Sep 28
-: [Java & Git](#)
-  : [1.1](#)
+Jan 5
+: [**Lec 1**](/assets/slides/deeprob_01_introduction.pdf){: #lec-1 target="_blank" .label .label-purple }[Course Introduction](/assets/slides/deeprob_01_introduction.pdf){:target="_blank"}
+  : [![](/assets/logos/yt_icon_rgb.png){: .module-logo } **Recording**](https://youtu.be/dx1G7y6mhMQ){:target="_blank"}
+: [**Project 0 out**{: .label .label-yellow }](/projects/project0/){: .project-link}
+  : [📖 GBC Ch. 1](https://www.deeplearningbook.org/contents/intro.html){:target="_blank"}
 
-Sep 29
-: **Section**{: .label .label-purple }[Intro to Java](#)
-  : [Solution](#)
 
-Sep 30
-: [Variables & Objects](#)
-  : [1.2](#), [2.1](#)
 
-Oct 1
-: **Lab**{: .label .label-purple } [Intro to Java](#)
+Jan 6
+: [**Dis 1**](/assets/slides/deeprob_discussion_01.pdf){: #dis-1 target="_blank" .label .label-blue }[Intro to Python, Pytorch and Colab](/assets/slides/deeprob_discussion_01.pdf){:target="_blank"}
+  : [![](/assets/logos/yt_icon_rgb.png){: .module-logo } **Recording**](https://youtu.be/06-DczsEPUI){:target="_blank"}
 
-Oct 2
-: [Tracing, IntLists, & Recursion](#)
-  : [2.1](#)
-: **HW 1 due**{: .label .label-red }
+

@@ -20,19 +20,30 @@ author:
 baseurl: '/just-the-class' # the subpath of your site, e.g. /blog
 url: 'https://kevinl.info' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
+logo: "/assets/logos/favicons/UMich_favicon_light.png"
+
+ga_tracking: G-FX9SVF3WSQ
+ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true by default)
 
 # Theme settings
-remote_theme: just-the-docs/just-the-docs@v0.4.0.rc4
-color_scheme: light
+remote_theme: just-the-docs/just-the-docs@v0.4.0.rc2
+color_scheme: mich
 search_enabled: true
 heading_anchors: true
 permalink: pretty
+aux_links_new_tab: true
 aux_links:
-  Kevin Lin:
-    - 'https://kevinl.info'
-  Just the Class on GitHub:
-    - 'https://github.com/kevinlin1/just-the-class'
-footer_content:
+  Forum:
+    - 'https://edstem.org/us/courses/31008/discussion/'
+  Office Hours:
+    - 'https://eecsoh.eecs.umich.edu/queues/2HK9nZeBgJBEPF6k84hbys3PNoK'
+  Autograder:
+    - 'https://autograder.io/web/course/199'
+  Gradescope:
+    - 'https://www.gradescope.com/courses/480760'
+  '<img src="/assets/logos/UMRobotics.png" class="nav-img">':
+    - 'https://robotics.umich.edu/'
+  
 
 # Collections for website data
 collections:
@@ -47,9 +58,7 @@ defaults:
       type: staffers
     values:
       layout: staffer
-      height: 300
       subpath: '/assets/images/'
-      width: 300
   - scope:
       path: ''
       type: modules
@@ -73,3 +82,6 @@ compress_html:
   startings: []
   blanklines: false
   profile: false
+
+plugins:
+  - jekyll-seo-tag

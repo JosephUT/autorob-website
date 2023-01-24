@@ -1,26 +1,61 @@
 ---
 layout: page
 title: Staff
-description: A listing of all the course staff members.
+description: A directory of the teaching staff for Deep Learning for Robot Perception at the University of Michigan.
 ---
 
-# Staff
+# Deep Rob Course Staff
 
-Staff information is stored in the `_staffers` directory and rendered according to the layout file, `_layouts/staffer.html`.
+<div class="staff-row" >
+<div markdown="1" class="staff-column">
 
-## Instructors
+# Instructors
 
 {% assign instructors = site.staffers | where: 'role', 'Instructor' %}
 {% for staffer in instructors %}
 {{ staffer }}
 {% endfor %}
 
-{% assign teaching_assistants = site.staffers | where: 'role', 'Teaching Assistant' %}
+</div>
+<div markdown="1" class="staff-column">
+
+# Collaborating Instructor
+
+{% assign instructors = site.staffers | where: 'role', 'Collaborating Instructor' %}
+{% for staffer in instructors %}
+{{ staffer }}
+{% endfor %}
+
+</div>
+</div>
+
+{% assign research_associates = site.staffers | where: 'role', 'Research Associate' %}
+{% assign num_research_associates = research_associates | size %}
+{% if num_research_associates != 0 %}
+
+# Research Associate
+
+{% for staffer in research_associates %}
+{{ staffer }}
+{% endfor %}
+{% endif %}
+
+{% assign teaching_assistants = site.staffers | where: 'role', 'Instructional Aide' %}
 {% assign num_teaching_assistants = teaching_assistants | size %}
 {% if num_teaching_assistants != 0 %}
-## Teaching Assistants
+
+# Instructional Aide
 
 {% for staffer in teaching_assistants %}
 {{ staffer }}
 {% endfor %}
 {% endif %}
+
+---
+
+# Week 4 Schedule
+{: #weekly-schedule }
+
+{% for schedule in site.schedules %}
+{{ schedule }}
+{% endfor %}

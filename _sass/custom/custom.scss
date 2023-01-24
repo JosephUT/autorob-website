@@ -6,6 +6,11 @@
 @import 'module';
 @import 'schedule';
 @import 'staffer';
+@import 'custom_navigation';
+@import 'footer';
+@import 'button';
+@import 'layout';
+@import 'colors';
 
 // Overrides
 code {
@@ -14,18 +19,17 @@ code {
   border: none;
 }
 
-iframe {
-  max-width: 100%;
+details {
+  margin: 0 40px 1em;
 }
 
-details {
-  @extend .mb-4;
+iframe,
+summary {
+  max-width: 100%;
 }
 
 summary {
   @extend .btn, .btn-outline;
-
-  width: 100%;
 }
 
 .main-content-wrap {
@@ -55,4 +59,17 @@ summary {
       margin-top: 1em;
     }
   }
+}
+
+
+.data-img {
+  height: 22em;
+}
+
+.text-logo {
+  height: 1em;
+}
+
+.label-orange {
+  background-color: #f58842;
 }

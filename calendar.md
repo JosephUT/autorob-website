@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Calendar
-description: Listing of course modules and topics.
+description: Schedule of topics covered in Deep Learning for Robot Perception at the University of Michigan.
+nav_order: 3
 ---
 
 # Calendar
