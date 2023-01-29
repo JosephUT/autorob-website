@@ -2,39 +2,27 @@
 title: Week 3
 ---
 
-Jan 17
-: [**Lec 4**](/assets/slides/deeprob_04_regularization_optimization.pdf){: #lec-4 target="_blank" .label .label-purple }[Regularization + Optimization](/assets/slides/deeprob_04_regularization_optimization.pdf){: target="_blank" }
-  : [![](/assets/logos/yt_icon_rgb.png){: .module-logo } **Recording**](https://youtu.be/7nxcUwO-aOs){:target="_blank"}
-: [**Quiz 1**{: .label .label-orange }](https://www.gradescope.com/courses/480760){: .project-link target="_blank" }
-  : [📖 231n Optimization](https://cs231n.github.io/optimization-1/){:target="_blank"}
-: &nbsp;
-  : [📖 GBC Sec 8.1-8.6](https://www.deeplearningbook.org/contents/optimization.html){:target="_blank"}
-: &nbsp;
-  : [📖 Li et al., Visualizing Loss Landscaps](https://arxiv.org/abs/1712.09913){:target="_blank"}
-: &nbsp;
-  : [📖 Goh, Why Momentum Really Works](https://distill.pub/2017/momentum/){:target="_blank"}
+Jan 16
+: [**Martin Luther King Jr. Day**](https://en.wikipedia.org/wiki/Martin_Luther_King_Jr._Day){: target="_blank" .label .bg-grey-dk-000 }
 
 
-Jan 19
-: [**Lec 5**](/assets/slides/deeprob_05_neural_networks.pdf){: #lec-5 target="_blank" .label .label-purple }[Neural Networks](/assets/slides/deeprob_05_neural_networks.pdf){: target="_blank" }
-  : [![](/assets/logos/yt_icon_rgb.png){: .module-logo } **Recording**](https://youtu.be/Lllnlsec6DY){:target="_blank"}
+
+Jan 18
+: [**Lec 5**](/assets/slides/autorob_04_dynamics_pendulum.pdf){: #lec-5 target="_blank" .label .label-purple }[Dynamical Simulation](/assets/slides/autorob_04_dynamics_pendulum.pdf){:target="_blank"}
+  : [![](/assets/logos/yt_icon_rgb.png){: .module-logo } **Recording**](https://www.youtube.com/watch?v=B_yWF6SqZW0){:target="_blank"}
+: [**Assignment 0 due**{: .label .label-red }](/assignments/asgn0/){: .project-link}[**Assignment 1 out**{: .label .label-yellow }](/assignments/asgn1/){: .project-link}
+  : 📖 Spong Ch. 7
 : &nbsp;
-  : [📖 231n Neural Networks](https://cs231n.github.io/neural-networks-1/){:target="_blank"}
+  : 📖 Corke Ch. 9
 : &nbsp;
-  : [📖 GBC Sec 6.1-6.4](https://www.deeplearningbook.org/contents/mlp.html){:target="_blank"}
+  : [📖 Euler's Method](https://en.wikipedia.org/wiki/Euler_method){:target="_blank"}
 : &nbsp;
-  : [📖 Nielsen, Universal Approximation](http://neuralnetworksanddeeplearning.com/chap4.html){:target="_blank"}
+  : [📖 Verlet Integration](https://en.wikipedia.org/wiki/Verlet_integration){:target="_blank"}
+: &nbsp;
+  : [📖 Runge-Kutta](https://en.wikipedia.org/wiki/Runge%E2%80%93Kutta_methods#The_Runge.E2.80.93Kutta_method){:target="_blank"}
 
 
 
 Jan 20
-: [**Dis 3**](/assets/slides/deeprob_discussion_03.pdf){: #dis-3 target="_blank" .label .label-blue }[How to Read Deep Learning Research Papers](/assets/slides/deeprob_discussion_03.pdf){:target="_blank"}
-  : [![](/assets/logos/yt_icon_rgb.png){: .module-logo } **Recording**](https://youtu.be/el312RMXubI){:target="_blank"}
-: &nbsp;
-  : [📖 Krizhevsky et al., AlexNet](https://papers.nips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html){:target="_blank"}
-: &nbsp;
-  : [📖 Xiang et al., PoseCNN](https://arxiv.org/abs/1711.00199){:target="_blank"}
-: &nbsp;
-  : [📖 Mildenhall et al., NeRF](https://arxiv.org/abs/2003.08934){:target="_blank"}
-
-
+: [**Lab 2**](/assets/slides/autorob_lab_03_pendularm.pdf){: target="_blank" .label .label-blue }[Pendularm Code Overview](/assets/slides/autorob_lab_03_pendularm.pdf){:target="_blank"}
+  : [![](/assets/logos/yt_icon_rgb.png){: .module-logo } **Recording**](https://www.youtube.com/watch?v=0pk5em-pxzg){:target="_blank"}

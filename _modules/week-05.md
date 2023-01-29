@@ -2,15 +2,17 @@
 title: Week 5
 ---
 
-Jan 31
-: **Lec 8**{: #lec-8 .label .label-purple }CNN Architectures
-: [**Quiz 4**{: .label .label-orange }](https://www.gradescope.com/courses/480760){: .project-link target="_blank" }
+Jan 30
+: **Interactive Session**{: .label .label-blue }Extended Office Hours
+: [**Quiz 2**](){: .label .label-orange }[**Assignment 1 due**{: .label .label-red }](/assignments/asgn0/){: .project-link}[**Assignment 2 out**{: .label .label-yellow }](/assignments/asgn1/){: .project-link}
 
 
-Feb 2
-: **Lec 9**{: #lec-9 .label .label-purple }Training Neural Networks I
-: [**Quiz 5**{: .label .label-orange }](https://www.gradescope.com/courses/480760){: .project-link target="_blank" }
+
+Feb 1
+: **Lec 7**{: #lec-7 .label .label-purple }Linear Algebra Refresher
+: **Lec 8**{: #lec-8 .label .label-purple }Forward Kinematics
+
 
 
 Feb 3
-: **Dis 5**{: #dis-5 .label .label-blue }Training CNNs in PyTorch
+: **Lab 4**{: .label .label-blue }Forward Kinematics Code Overview

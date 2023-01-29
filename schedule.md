@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Schedule
-description: Schedule of topics covered in Deep Learning for Robot Perception at the University of Michigan.
+description: Schedule of topics covered in Intro to Autonomous Robotics / Robot Operating Systems at Michigan.
 nav_order: 3
 ---
 
-# Calendar
+# Schedule
 
 {% for module in site.modules %}
 {{ module }}

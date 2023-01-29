@@ -18,10 +18,6 @@ Within the ([Michigan Robotics Undergraduate Program](https://robotics.umich.edu
 AutoRob projects ground course concepts through implementation in ([JavaScript](https://en.wikipedia.org/wiki/JavaScript){:target="_blank"})/[HTML5](https://en.wikipedia.org/wiki/HTML){:target="_blank"}) supported by the KinEval code stencil (snapshot below from Mozilla Firefox), as well as tutorials for the ROS robot operating system and the rosbridge robot messaging protocol. These projects will coverrobot middleware architectures and publish-subscribe messaging models, graph search path planning (A* algorithm), basic physical simulation (Lagrangian dynamics, numerical integrators), proportional-integral-derivative (PID) control, forward kinematics (3D geometric matrix transforms, matrix stack composition of transforms, axis-angle rotation by quaternions), inverse kinematics (gradient descent optimization, geometric Jacobian), and motion planning (simple collision detection, sampling-based motion planning). Additional topics that could be covered include network socket programming, JSON object parsing, potential field navigation, Cyclic Coordinate Descent, Newton-Euler dynamics, task and mission planning, Bayesian filtering, and Monte Carlo localization.
 
 
-This course builds on and is indebted to these existing courses (as a “star” and a "fork" in the open source sense):
-- [University of Michigan - EECS 498-007 / 598-005: Deep Learning for Computer Vision](https://web.eecs.umich.edu/~justincj/teaching/eecs498/WI2022/schedule.html){:target="_blank"} instructed by [Justin Johnson](https://web.eecs.umich.edu/~justincj/){:target="_blank"}
-- [Stanford - CS231n: Deep Learning for Computer Vision](http://cs231n.stanford.edu/index.html){:target="_blank"} instructed by [Fei-Fei Li](https://profiles.stanford.edu/fei-fei-li){:target="_blank"} and [Andrej Karpathy](https://karpathy.ai/){:target="_blank"}
-
 ---
 
 

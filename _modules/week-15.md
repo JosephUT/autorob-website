@@ -1,8 +1,12 @@
 ---
-title: Week 15
+title: Week 15 - National Robotics Week
 ---
 
-Apr 18
-: **Lec 28**{: #lec-28 .label .label-purple }Course Closure
-: [**Final Project Report Due**{: .label .label-red }](/projects/#final-project){: .project-link}
-  : [📖 Richard P. Feynman, Cargo Cult Science](https://calteches.library.caltech.edu/51/2/CargoCult.htm){:target="_blank"}
+Apr 10
+: **Interactive Session**{: .label .label-blue }Guest Lecture
+: [**Quiz 11**](){: .label .label-orange }[**Assignment 6 due**{: .label .label-red }](/assignments/asgn6/){: .project-link}
+
+
+Apr 14
+: **Lab 12**{: .label .label-blue }Extended Office Hours
+: [**Assignment 7 due**{: .label .label-red }](/assignments/asgn7/){: .project-link}

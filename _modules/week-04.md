@@ -2,32 +2,23 @@
 title: Week 4
 ---
 
-Jan 24
-: **Lec 6**{: #lec-6 .label .label-purple }Backpropagation
-: [**Quiz 2**{: .label .label-orange }](https://www.gradescope.com/courses/480760){: .project-link target="_blank" }
-: &nbsp;
-  : [📖 cs231n Backpropagation](https://cs231n.github.io/optimization-2/){:target="_blank"}
-: &nbsp;
-  : [📖 GBC Sec 6.5-6.6](https://www.deeplearningbook.org/contents/mlp.html#pf25){:target="_blank"}
-: &nbsp;
-  : [📖 Olah, Backpropagation](http://colah.github.io/posts/2015-08-Backprop/){:target="_blank"}
+Jan 23
+: [**Interactive Session**](/activities/act1_planning_scene/){: .label .label-blue }[**Planning Scene Creation Activity**](/activities/act1_planning_scene/)
+: **Quiz 1**{: .label .label-orange }
 
 
 
-Jan 26
-: **Lec 7**{: #lec-7 .label .label-purple }Convolutional Neural Networks
-: [**Quiz 3**{: .label .label-orange }](https://www.gradescope.com/courses/480760){: .project-link target="_blank" } [**Project 1 due**{: .label .label-red }](/projects/project1/){: .project-link} [**Project 2 out**{: .label .label-yellow }](/projects/#project-2){: .project-link}
+Jan 25
+: [**Lec 6**](/assets/slides/autorob_05_control_pid.pdf){: #lec-6 target="_blank" .label .label-purple }[**Motion Control**](/assets/slides/autorob_05_control_pid.pdf){:target="_blank"}
+  : [![](/assets/logos/yt_icon_rgb.png){: .module-logo } **Recording**](https://www.youtube.com/watch?v=VdEA4InDxKc){:target="_blank"}
 : &nbsp;
-  : [📖 cs231n ConvNets](https://cs231n.github.io/convolutional-networks/){:target="_blank"}
+  : 📖 Spong Ch. 6.3
 : &nbsp;
-  : [📖 GBC Ch. 9](https://www.deeplearningbook.org/contents/convnets.html){:target="_blank"}
+  : [📖 Vondrak et al. 2012](/assets/documents/marek_pami2012.pdf){:target="_blank"}
 : &nbsp;
-  : [📖 Olah et al., Feature Visualization](https://distill.pub/2017/feature-visualization/){:target="_blank"}
-
+  : [📖 Astrom Ch. 6](/assets/documents/astrom-ch6.pdf){:target="_blank"}
 
 
 
 Jan 27
-: **Dis 4**{: #dis-4 .label .label-blue }Overview of Final Project Topics
-: &nbsp;
-  : [📖 Vannevar Bush, Science The Endless Frontier](https://www.nsf.gov/od/lpa/nsf50/vbush1945.htm){:target="_blank"}
+: [**Lab 3**](/assets/slides/autorob_lab_04_pendularm.pdf){: target="_blank" .label .label-blue }[**Pendularm Project Support**](/assets/slides/autorob_lab_04_pendularm.pdf){:target="_blank"}

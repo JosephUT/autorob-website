@@ -1,17 +1,12 @@
 ---
-title: Week 13; Perception for Manipulation
+title: Week 13
 ---
 
-Apr 4
-: **Lec 24**{: #lec-24 .label .label-purple }Grasp Pose Detection
-: &nbsp;
-  : [📃 Related Papers](/papers/#grasp-pose-detection){:target="_blank"}
+Mar 27
+: **Interactive Session**{: .label .label-blue }IK Setpoint Competition
+: [**Quiz 9**](){: .label .label-orange }[**Assignment 5 due**{: .label .label-red }](/assignments/asgn5/){: .project-link}[**Assignment 6 out**{: .label .label-yellow }](/assignments/asgn6/){: .project-link}
 
 
-Apr 6
-: **Lec 25**{: #lec-25 .label .label-purple }Transformer Architectures
-: &nbsp;
-  : [📃 Related Papers](/papers/#transformer-architectures){:target="_blank"}
 
-Apr 7
-: **Dis 13**{: #dis-13 .label .label-blue }Paper discussion: Deep Learning for Manipulation
+Apr 1
+: **Lab 11**{: .label .label-blue }Fetch and Rosbridge Activity

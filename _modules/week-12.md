@@ -1,16 +1,18 @@
 ---
-title: Week 12; Data
+title: Week 12
 ---
 
-Mar 28
-: **Lec 22**{: #lec-22 .label .label-purple }Datasets for Perception
-: [**Final Project Checkpoint**{: .label .label-red }](/projects/#final-project){: .project-link}
-  : [📃 Related Papers](/papers/#datasets){:target="_blank"}
+Mar 20
+: **Interactive Session**{: .label .label-blue }Dance Finite State Machine Showcase
+: [**Quiz 8**](){: .label .label-orange }
 
-Mar 30 
-: **Lec 23**{: #lec-23 .label .label-purple }Self-Supervised Learning
-: &nbsp;
-  : [📃 Related Papers](/papers/#self-supervised-learning){:target="_blank"}
 
-Mar 31
-: **Dis 12**{: #dis-12 .label .label-blue }Creating and managing datasets, Papers With Code
+
+Mar 22
+: **Lec 16**{: #lec-16 .label .label-purple }Potential Fields
+: **Lec 17**{: #lec-17 .label .label-purple }Collision Detection
+
+
+
+Mar 24
+: **Lab 10**{: .label .label-blue }Motion Planning Code Overview - 3D

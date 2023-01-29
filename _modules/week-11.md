@@ -1,16 +1,18 @@
 ---
-title: Week 11; Scene-Level Representations
+title: Week 11
 ---
 
-Mar 21
-: **Lec 20**{: #lec-20 .label .label-purple }Semantic Scene Graphs
-: &nbsp;
-  : [📃 Related Papers](/papers/#semantic-scene-graphs-and-explicit-representations){:target="_blank"}
+Mar 13
+: **Interactive Session**{: .label .label-blue }Extended Office Hours
+: [**Quiz 7**](){: .label .label-orange }[**Assignment 4 due**{: .label .label-red }](/assignments/asgn0/){: .project-link}[**Assignment 5 out**{: .label .label-yellow }](/assignments/asgn1/){: .project-link}
 
-Mar 23
-: **Lec 21**{: #lec-21 .label .label-purple }Neural Radiance Fields
-: &nbsp;
-  : [📃 Related Papers](/papers/#neural-radiance-fields-and-implicit-representations){:target="_blank"}
 
-Mar 24
-: **Dis 11**{: #dis-11 .label .label-blue }Paper discussion: NeRFs
+
+Mar 15
+: **Lec 14**{: #lec-12 .label .label-purple }Configuration Spaces
+: **Lec 15**{: #lec-13 .label .label-purple }Sampling-Based Planning
+
+
+
+Mar 17
+: **Lab 9**{: .label .label-blue }Motion Planning Code Overview - 2D

@@ -1,18 +1,11 @@
 ---
-title: Week 14; More Frontiers
+title: Week 14
 ---
 
-Apr 11
-: **Lec 26**{: #lec-26 .label .label-purple }Articulated and Deformable Objects
-: &nbsp;
-  : [📃 Related Papers](/papers/#more-frontiers){:target="_blank"}
+Apr 3
+: **Interactive Session**{: .label .label-blue }Guest Lecture
+: [**Quiz 10**](){: .label .label-orange }[**Assignment 7 out**{: .label .label-yellow }](/assignments/asgn7/){: .project-link}
 
 
-Apr 13
-: **Lec 27**{: #lec-27 .label .label-purple }Dynamic Scenes
-: &nbsp;
-  : [📃 Related Papers](/papers/#more-frontiers){:target="_blank"}
-
-
-Apr 14
-: **Dis 14**{: #dis-14 .label .label-blue }Paper discussion: Remaining Challenges and Limitations
+Apr 7
+: **Lab 12**{: .label .label-blue }Extended Office Hours

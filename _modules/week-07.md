@@ -2,13 +2,16 @@
 title: Week 7
 ---
 
-Feb 14
-: **Lec 12**{: #lec-12 .label .label-purple }Object Detection
-  <!-- : [3.1](#), [2.2](#), [2.3](#) -->
+Feb 13
+: **Interactive Session**{: .label .label-blue }Extended Office Hours
+: [**Quiz 4**](){: .label .label-orange }[**Assignment 2 due**{: .label .label-red }](/assignments/asgn0/){: .project-link}[**Assignment 3 out**{: .label .label-yellow }](/assignments/asgn1/){: .project-link}
 
-Feb 16
-: **Lec 13**{: #lec-13 .label .label-purple }Semantic Segmentation
-  <!-- : [Solution](#) -->
+
+
+Feb 15
+: **Lec 10**{: #lec-10 .label .label-purple }Reactive Controllers
+
+
 
 Feb 17
-: **Dis 7**{: #dis-7 .label .label-blue }Detection & Segmentation Demo
+: **Lab 6**{: .label .label-blue }Dance Competition Pose Walkthrough

@@ -9,45 +9,27 @@ has_toc: false
 ---
 
 # Course Projects
-{:.no_toc}
-
-<!-- ## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
---- -->
-
 
 ## [Assignment 0](/assignments/asgn0/)
-
-description
+ROS publisher and subscriber to facilitate collision-free navigation
 
 ## [Assignment 1](/assignments/asgn1/)
-
-description
+Priority queues and path planning with A-star and other searching algorithms
 
 ## [Assignment 2](/assignments/asgn2/)
+Dynamic simulation of a pendulum and PID control
 
-description
+## Assignment 3
+URDF-based forward kinematics for modeling robot state
 
-## [Assignment 3](/assignments/asgn3/)
+## Assignment 4
+Robot definition and dance contest
 
-description
+## Assignment 5
+Inverse kinematics for moving manipulators to setpoints
 
-## [Assignment 4](/assignments/asgn4/)
+## Assignment 6
+Motion planning with RRT and RRT-connect, and AABB Collision Detection
 
-description
-
-## [Assignment 5](/assignments/asgn5/)
-
-description
-
-## [Assignment 6](/assignments/asgn6/)
-
-description
-
-## [Assignment 7](/assignments/asgn7/)
-
-description
+## Assignment 7
+Presentation on the best use of robotics

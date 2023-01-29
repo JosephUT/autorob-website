@@ -9,21 +9,15 @@ has_toc: false
 ---
 
 # Course Activities
-{:.no_toc}
 
-<!-- ## Table of contents
-{: .no_toc .text-delta }
+## [Planning Scene Creation](/activities/act1_planning_scene/)
+Create and share custom planning scenes for testing search algorithms
 
-1. TOC
-{:toc}
+## Setpoint Competition
+Test pedularm PID controllers with automatically generated setpoints
 
---- -->
+## Robot Definition
+Define new robots with .js URDF files
 
-
-## [Planning Scene Creation](/activities/planning_scene/)
-
-description
-
-## [Robot Definition](/activities/robot_definition/)
-
-description
+## IK Competition
+Test IK implementations with automatically generated setpoints

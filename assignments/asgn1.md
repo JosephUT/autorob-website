@@ -27,7 +27,6 @@ style="width:600px;heigh:auto"/>
 
 
 ## Features Overview
-
 This assignment requires the following features to be implemented in the corresponding files in your repository:
 
  - Heap implementation in "tutorial_heapsort/heap.js"
@@ -38,7 +37,6 @@ Points distributions for these features can be found in the project rubric secti
 
 
 ## Cloning the Stencil Repository
-
 If you have not done so already, the first step for completing this project (and all projects for AutoRob) is to clone the [KinEval stencil repository](https://github.com/lizolson/kineval-stencil){:target="_blank"}. The appended git quick start below is provided those unfamiliar with git to perform this clone operation, as well as commiting and pushing updates for project submission. **IMPORTANT:** the stencil repository should be cloned and **not forked** -- and we will this single repository for all projects in the course.
 
 Each student in this class is responsible for providing a git repository for submitting their project work and receiving grading feedback. Use of the GitHub classroom is available as a complementary service that provides repositories free for student use. If a student is uncomfortable using the GitHub service, the [EECS GitLab Server](https://gitlab.umich.edu/){:target="_blank"} is a service within the University of Michigan and is available for creation of student repositories.
@@ -49,7 +47,6 @@ Throughout the KinEval code stencil, there are markers with the string "STENCIL"
 
 
 ## Heap Sort Tutorial
-
 The starting point for this assignment is to complete the heap sort implementation in the "tutorial_heapsort" subdirectory of the stencil repository. In this directory, a code stencil in JavaScript/HTML5 is provided in two files: "heapsort.html" and "heap.js". Comments are provided throughout these files to describe the structure of JavaScript/HTML5 and its programmatic features.
 
 If you are new to JavaScript/HTML5, there are other tutorial-by-example files in the "tutorial_js" directory. Any of these files can be run by simply opening them in a web browser. Note that these are examples only, and there are no assignment requirements in the "tutorial_js" files.
@@ -72,7 +69,6 @@ style="width:500px;heigh:auto"/>
 
 
 ## Graph Search Stencil
-
 For the path planning implementation, a JavaScript/HTML5 code stencil has been provided in the "project_pathplan" subdirectory. The main HTML file, "search_canvas.html", includes JavaScript code from "draw.js", "infrastructure.js", "graph_search.js", and the "/scenes" directory. Of these files, students must only edit "graph_search.js", although you may want to examine the other files to understand the available helper functions. There will also be an optional activity involving adding new planning scene files under the "/scenes" directory. Opening "search_canvas.html" in a browser should display an empty 2D world displayed in an [HTML5 canvas](http://www.w3schools.com/html/html5_canvas.asp){:target="_blank"} element.
 
 <center>
@@ -92,43 +88,38 @@ The iterateGraphSearch() function should perform a search iteration towards the 
 
 
 ## Graduate Section Requirement
-
 In addition to the A-star algorithm, students in the graduate section of AutoRob must additionally implement path planning by Depth-first search, Breadth-first search, and Greedy best-first search. An additional report is required in "report.html" (you will need to create this file) in the "project_pathplan" directory. This report must: 1) show results from executing every search algorithm with every planning world for various start and goal configurations and 2) synthesize these results into coherent findings about these experiments.
 
 For effective communication, it is recommended to think of "report.html" like a short research paper: motivate the problem, set the value proposition for solving the problem, describe how your methods can address the problem, and show results that demonstrate how well these methods realize the value proposition. Visuals are highly recommended to complement this description. The best research papers can be read in three ways: once in text, once in figures, and once in equations. It is also incredibly important to remember that writing in research is about generalizable understanding of the problem more than a specific technical accomplishment.
 
 
 ## Optional Extensions
-  
-
 Optional extensions can be submitted anytime before the final grading is complete. Concepts for several of these extensions will not be covered until later in the semester. Any new path planning algorithm must be implemented within its own ".js" file under the "project_pathplan" directory, and invoked through a parameter given through the URL. For example, the Bug0 algorithm must be invoked by adding the argument "?search_alg="Bug0" to the URL. Thus, a valid invocation of Bug0 for the Narrow2 world could use the URL (for the appropriate location of the file on your computer's filesystem):
 
 `file:///myfilesystem/kineval-stencil/project_pathplan/search_canvas.html?planning_scene=scenes/narrow2.js?search_alg="Bug0"`
 
 The same format must be used to invoke any other algorithm (such as Bug1, Bug2, TangentBug, Wavefront, etc.). Note that you will need to update the animate loop in draw.js to include new planning algorithms and update the main HTML file to include your new scripts, along with implementing the algorithms in their own files.
 
- - Of the 4 possible optional extension points, two additional points for this assignment can be earned by implementing the   "Bug0", "Bug1", "Bug2", and "TangentBug" navigation algorithms. The implementation of these bug algorithms must be contained within the file "bug.js" under the "project_pathplan" directory.
+- Of the 4 possible optional extension points, two additional points for this assignment can be earned by implementing the   "Bug0", "Bug1", "Bug2", and "TangentBug" navigation algorithms. The implementation of these bug algorithms must be contained within the file "bug.js" under the "project_pathplan" directory.
 
- - Of the 4 possible optional extension points, two additional points for this assignment can be earned by implementing navigation by "Potential" fields and navigation using the "Wavefront" algorithm. The implementation of these potential-based navigation algorithms must be contained within the file "field_wave.js" under the "project_pathplan" directory.
+- Of the 4 possible optional extension points, two additional points for this assignment can be earned by implementing navigation by "Potential" fields and navigation using the "Wavefront" algorithm. The implementation of these potential-based navigation algorithms must be contained within the file "field_wave.js" under the "project_pathplan" directory.
 
- - Of the 4 possible optional extension points, one additional point for this assignment can be earned by implementing a navigation algorithm using a probabilistic roadmap ("PRM"). This roadmap algorithm implementation must be contained within the file "prm.js" under the "project_pathplan" directory.
+- Of the 4 possible optional extension points, one additional point for this assignment can be earned by implementing a navigation algorithm using a probabilistic roadmap ("PRM"). This roadmap algorithm implementation must be contained within the file "prm.js" under the "project_pathplan" directory.
 
- - Of the 4 possible optional extension points, one additional point for this assignment can be earned by implementing costmap functionality using morphological operators. Based on the computed costmap, the navigation routine would provide path cost in addition path length for a successful search. The implementation of this costmap must be contained within the file "costmap.js" under the "project_pathplan" directory.
+- Of the 4 possible optional extension points, one additional point for this assignment can be earned by implementing costmap functionality using morphological operators. Based on the computed costmap, the navigation routine would provide path cost in addition path length for a successful search. The implementation of this costmap must be contained within the file "costmap.js" under the "project_pathplan" directory.
 
- - Of the 4 possible optional extension points, one additional point for this assignment can be earned by implementing a priority queue through an [AVL tree](https://en.wikipedia.org/wiki/AVL_tree){:target="_blank"} or a [red-black tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree){:target="_blank"}. The implementation of this priority queue must be contained within the file "balanced_tree.js" under the "project_pathplan" directory.
+- Of the 4 possible optional extension points, one additional point for this assignment can be earned by implementing a priority queue through an [AVL tree](https://en.wikipedia.org/wiki/AVL_tree){:target="_blank"} or a [red-black tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree){:target="_blank"}. The implementation of this priority queue must be contained within the file "balanced_tree.js" under the "project_pathplan" directory.
 
- - Of the 4 possible optional extension points, one additional point for this assignment can be earned by adapting the search canvas to plan betwen any locations in the map "bbb2ndfloormap.png" (provided in the stencil repository) when the "planning_scene" parameter is invoked as "BeysterFloor2".
+- Of the 4 possible optional extension points, one additional point for this assignment can be earned by adapting the search canvas to plan betwen any locations in the map "bbb2ndfloormap.png" (provided in the stencil repository) when the "planning_scene" parameter is invoked as "BeysterFloor2".
 
 
 ## Project Submission
-
 For turning in your assignment, ensure your completed project code has been committed and pushed to the master branch of your repository.
 
 To ensure proper submission of your assignments, please make sure the following have been done from Project 0:
 
- - complete the [AutoRob Winter 2022 Student Workflow Survey](https://forms.gle/uEfkN8aPWaYZ87K3A){:target="_blank"}, making sure you provide your GitHub username
+- complete the [AutoRob Winter 2022 Student Workflow Survey](https://forms.gle/uEfkN8aPWaYZ87K3A){:target="_blank"}, making sure you provide your GitHub username
 
- - ensure the instructor and all IAs have push/admin access to your repository, which can be confirmed/addressed through slack, email, or office hours
-
+- ensure the instructor and all IAs have push/admin access to your repository, which can be confirmed/addressed through slack, email, or office hours
 
 <small>If you are paying attention, you should also add a directory to your repository called "me". This "me" directory should include a simple webpage in the file "me.html". The "me.html" file should have a title with your name, an h1 tag with your name, body with a brief introduction about you, and a script tag that prints the result of Array(16).join("wat"-1)+" Batman!" to the console.</small>
