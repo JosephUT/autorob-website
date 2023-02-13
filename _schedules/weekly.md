@@ -69,8 +69,3 @@ schedule:
         zoom: <a href="https://umich.zoom.us/j/93652225304" target="_blank" style="color:white;">Zoom Link</a>
         class: discussion
 ---
-
-      <!-- - name: Huijie's Office Hours
-        start: 2:00 PM
-        end: 3:00 PM
-        location: 2320 FMCRB, Zoom ID 936 5222 5304 -->

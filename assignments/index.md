@@ -19,7 +19,7 @@ Priority queues and path planning with A-star and other searching algorithms
 ## [Assignment 2](/assignments/asgn2/)
 Dynamic simulation of a pendulum and PID control
 
-## Assignment 3
+## [Assignment 3](/assignments/asgn3/)
 URDF-based forward kinematics for modeling robot state
 
 ## Assignment 4

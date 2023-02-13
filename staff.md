@@ -29,13 +29,13 @@ description: A directory of the teaching staff for Deep Learning for Robot Perce
 </div>
 </div>
 
-{% assign research_associates = site.staffers | where: 'role', 'Research Associate' %}
-{% assign num_research_associates = research_associates | size %}
-{% if num_research_associates != 0 %}
+{% assign graduate_student_instructors = site.staffers | where: 'role', 'Graduate Student Instructor' %}
+{% assign num_graduate_student_instructors = graduate_student_instructors | size %}
+{% if num_graduate_student_instructors != 0 %}
 
-# Research Associate
+# Graduate Student Instructors
 
-{% for staffer in research_associates %}
+{% for staffer in graduate_student_instructors %}
 {{ staffer }}
 {% endfor %}
 {% endif %}
@@ -53,9 +53,9 @@ description: A directory of the teaching staff for Deep Learning for Robot Perce
 
 ---
 
-# Week 4 Schedule
+<!-- # Week 4 Schedule
 {: #weekly-schedule }
 
 {% for schedule in site.schedules %}
 {{ schedule }}
-{% endfor %}
+{% endfor %} -->

@@ -24,7 +24,7 @@ AutoRob projects ground course concepts through implementation in ([JavaScript](
 <div class="staff-row" >
 <div markdown="1" class="staff-column">
 
-# Instructors
+# Instructor
 
 {% assign instructors = site.staffers | where: 'role', 'Instructor' %}
 {% for staffer in instructors %}
@@ -44,13 +44,13 @@ AutoRob projects ground course concepts through implementation in ([JavaScript](
 </div>
 </div>
 
-{% assign research_associates = site.staffers | where: 'role', 'Research Associate' %}
-{% assign num_research_associates = research_associates | size %}
-{% if num_research_associates != 0 %}
+{% assign graduate_student_instructors = site.staffers | where: 'role', 'Graduate Student Instructor' %}
+{% assign num_graduate_student_instructors = graduate_student_instructors | size %}
+{% if num_graduate_student_instructors != 0 %}
 
-# Research Associate
+# Graduate Student Instructors
 
-{% for staffer in research_associates %}
+{% for staffer in graduate_student_instructors %}
 {{ staffer }}
 {% endfor %}
 {% endif %}
@@ -59,7 +59,7 @@ AutoRob projects ground course concepts through implementation in ([JavaScript](
 {% assign num_teaching_assistants = teaching_assistants | size %}
 {% if num_teaching_assistants != 0 %}
 
-# Instructional Aide
+# Instructional Aides
 
 <div class="staffer-table">
 {% for staffer in teaching_assistants %}
@@ -70,9 +70,9 @@ AutoRob projects ground course concepts through implementation in ([JavaScript](
 
 ---
 
-# Week 4 Schedule
+<!-- # Week 4 Schedule
 {: #weekly-schedule }
 
 {% for schedule in site.schedules %}
 {{ schedule }}
-{% endfor %}
+{% endfor %} -->

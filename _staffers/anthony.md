@@ -1,6 +1,6 @@
 ---
 name: Anthony Opipari
-role: Instructor
+role: Collaborating Instructor
 email: topipari@umich.edu
 website: https://topipari.com
 photo: anthony.jpg
