@@ -37,7 +37,9 @@ While previous assignments were implemented within self-contained subsections of
 
 If you open "home.html" in this repository, you should see the disconnected pieces of a robot bouncing up and down in the default environment.  This initial mode is the "starting point" state of the stencil to help build familiarity with JavaScript/HTML5 and KinEval.
 
-![](../assets/images/asgn3/kineval_welcome.png)
+<center>
+    ![Kineval Welcome](../assets/images/asgn3/kineval_welcome.png)
+</center>
 
 Your (optional) first task is to make the bouncing robot in starting point mode responsive to keyboard commands.  Specifically, the robot pieces will move upward, stop/start jittering, move closer together, and further apart (although more is encouraged).  To do this, you will modify "kineval/kineval_startingpoint.js" at the sections marked with "STENCIL".  These sections also include code examples meant to be a quick (and very rough) introduction to JavaScript and homogeneous transforms for translation, assuming programming competency in another language.
 
@@ -98,16 +100,21 @@ if (kineval.params.just_starting == true) {
 
 The "robots/robot_mr2.js" example should produce the following:
 
-![](../assets/images/asgn3/fk_mr2_example.png)
+<center>
+![Forward Kinematics Mr2](../assets/images/asgn3/fk_mr2_example.png)
+</center>
 
 If implemented properly, the "robots/robot_urdf_example.js" example should produce the following rendering:
 
-![](../assets/images/asgn3/fk_urdf_example.png)
+<center>
+![Forward Kinematics URDF](../assets/images/asgn3/fk_urdf_example.png)
+</center>
 
 The "robots/robot_crawler.js" example should produce the following (shown with joint axes highlighted):
 
-![](../assets/images/asgn3/fk_crawler_example.png)
-
+<center>
+![Forward Kinematics Crawler](../assets/images/asgn3/fk_crawler_example.png)
+</center>
 
 ### Interactive Hierarchy Traversal
 Additionally, a correct implementation will be able to interactively traverse the kinematic hierarchically by changing the active joint.  The active joint has focus for user control, which will be used in the next assignment.  For now, we are using the active joint to ensure your kinematic hierarchy is correct.  You should be able to move up and down the kinematic hierarchy with the "k" and "j" keys, respectively.  You can also move between the children of a link using the "h" and "l" keys.
@@ -138,11 +145,15 @@ ROS uses a different default coordinate system than threejs, which needs to be t
 
 A proper implementation for `fetch.urdf.js` description should produce the following (shown with joint axes highlighted):
 
+<center>
 ![fk_fetch_example](../assets/images/asgn3/fk_fetch_example.png)
+</center>
 
 The "robots/sawyer/sawyer.urdf.js" example should produce the following:
 
+<center>
 ![fk_sawyer_example](../assets/images/asgn3/fk_sawyer_example.png)
+</center>
 
 **Your newly created robot description should be placed in the "robots" directory with a filename with your username in the format "robot_uniqueid.js" if no external geometries are used for this robot (similar to the MR2 or Crawler robots).  If external geometries are imported (similar to the Fetch and Baxter), the robot description should be in a new subdirectory with the robot's name.  The robot's name should also be used to name the URDF file, such as "robots/newrobotname/newrobotname.urdf.js".  It is requested that geometries for a new robot go into this directory within a "meshes" subdirectory, such as "robots/newrobotname/meshes".  Guidance can be provided during office hours about creating or converting URDF-based robot description files to KinEval-compliant JavaScript and importing Collada, STL, and Wavefront OBJ geometry files.**
 
@@ -157,10 +168,10 @@ and
 
 The following KinEval-compatiable robot descriptions were created by students in past offerings of the AutoRob course.  These descriptions are available for your use:
 
-- Boston Dynamics [Atlas by yeyangf](robot_descriptions/atlas_yeyangf.zip)
-- Agility Robotics [Cassie by mungam](robot_descriptions/cassie_mungam.zip)
-- NASA [Robonaut 2 by nikhita](robot_descriptions/robonaut2_nikhita.zip)
-- [Human Support Robot by sajanptl](robot_descriptions/hsr_sajanptl.zip)
-- KUKA [Lightweight Arm by nmtvijay](robot_descriptions/kuka_lbr_iiwa_nmtvijay.zip)
+- Boston Dynamics [Atlas by yeyangf](../assets/robot_descriptions/atlas_yeyangf.zip)
+- Agility Robotics [Cassie by mungam](../assets/robot_descriptions/cassie_mungam.zip)
+- NASA [Robonaut 2 by nikhita](../assets/robot_descriptions/robonaut2_nikhita.zip)
+- [Human Support Robot by sajanptl](../assets/robot_descriptions/hsr_sajanptl.zip)
+- KUKA [Lightweight Arm by nmtvijay](../assets/robot_descriptions/kuka_lbr_iiwa_nmtvijay.zip)
 - [R2D2-like robot by eeyan](robot
 

@@ -19,53 +19,82 @@ timeline:
   - '5:00 PM'
   - '5:30 PM'
   - '6:00 PM'
+  - '6:30 PM'
+  - '7:00 PM'
+  - '7:30 PM'
+  - '8:00 PM'
+  - '8:30 PM'
+  - '9:00 PM'
+
 schedule:
-  - name: Monday 01/23
+  - name: Monday
     events:
-      - name: Huijie's Office Hours
+      - name: Joseph's Office Hours
+        start: 11:00 AM
+        end: 12:00 PM
+        location: 2000 FMCRB
+      - name: Joseph's Office Hours
         start: 2:30 PM
         end: 4:30 PM
-        location: 2320 FMCRB
-        zoom: <a href="https://umich.zoom.us/j/93652225304" target="_blank" style="color:white;">Zoom Link</a>
-  - name: Tuesday 01/24
-    events:
-      - name: <a href="/calendar/#lec-6" style="color:white;">Lecture 6</a>
-        start: 3:00 PM
-        end: 4:30 PM
+        location: 2000 FMCRB
+      - name: AutoRob Course Interactive Session
+        start: 4:30 PM
+        end: 7:30 PM
         location: 1060 FMCRB
-        zoom: <a href="https://umich.zoom.us/j/93652225304" target="_blank" style="color:white;">Zoom Link</a>
+        zoom: <a href="https://umich.zoom.us/j/93976629873" target="_blank" style="color:white;">Zoom Link</a>
         class: lecture
-  - name: Wednesday 01/25
+  - name: Tuesday
     events:
-      - name: Anthony's Office Hours
-        start: 1:30 PM
-        end: 3:00 PM
-        location: 3320 FMCRB
-        zoom: <a href="https://umich.zoom.us/j/93652225304" target="_blank" style="color:white;">Zoom Link</a>
-  - name: Thursday 01/26
-    events:
-      - name: Jiyue's Office Hours
+      - name: Franklin's office hours
+        start: 10:00 AM
+        end: 12:00 PM
+        location: 2000 FMCRB
+      - name: Jiayao's office hours
         start: 1:00 PM
         end: 3:00 PM
-        location: 2320 FMCRB
-        zoom: <a href="https://umich.zoom.us/j/93652225304" target="_blank" style="color:white;">Zoom Link</a>
-      - name: <a href="/calendar/#lec-7" style="color:white;">Lecture 7</a>
+        location: 2000 FMCRB
+      - name: Dharivi's office hours
+        start: 2:00 PM
+        end: 5:00 PM
+        location: BBB Atrium
+      - name: Nikhil's office hours
         start: 3:00 PM
-        end: 4:30 PM
-        location: 1060 FMCRB
-        zoom: <a href="https://umich.zoom.us/j/93652225304" target="_blank" style="color:white;">Zoom Link</a>
-        class: lecture
-  - name: Friday 01/27
+        end: 5:00 PM
+        location: 2000 FMCRB
+      - name: Boyang's office hours
+        start: 3:30 PM
+        end: 5:00 PM
+        location: 2000 FMCRB
+  - name: Wednesday
     events:
-      - name: Anthony's Office Hours
-        start: 9:00 AM
-        end: 10:30 AM
-        location: 3320 FMCRB
-        zoom: <a href="https://umich.zoom.us/j/93652225304" target="_blank" style="color:white;">Zoom Link</a>
-      - name: <a href="/calendar/#dis-4" style="color:white;">Discussion 4</a>
-        start: 4:30 PM
-        end: 5:30 PM
-        location: 1060 FMCRB
-        zoom: <a href="https://umich.zoom.us/j/93652225304" target="_blank" style="color:white;">Zoom Link</a>
+      - name: Chad's Office Hours
+        start: 3:00 PM
+        end: 5:00 PM
+        location: 2336/ 2247 FMCRB
+  - name: Thursday
+    events:
+      - name: Franklin's office hours
+        start: 10:00 AM
+        end: 12:00 PM
+        location: 2000 FMCRB
+      - name: Jiayao's office hours
+        start: 1:00 PM
+        end: 3:00 PM
+        location: 2000 FMCRB
+      - name: Jiaqi's office hours
+        start: 1:00 PM
+        end: 3:00 PM
+        location: 2000 FMCRB
+  - name: Friday
+    events:
+      - name: Liz's Office Hours
+        start: 10:00 AM
+        end: 12:00 PM
+        location: 2000 FMCRB
+      - name: Autorob Laboratory 
+        start: 2:30 PM
+        end: 3:30 PM
+        location: 1670 BBB
+        zoom: <a href="https://umich.zoom.us/j/93976629873" target="_blank" style="color:white;">Zoom Link</a>
         class: discussion
 ---
